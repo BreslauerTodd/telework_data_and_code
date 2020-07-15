@@ -1,0 +1,5 @@
+Issue: the run 8 column was labeled " Run 8" instead of "Run 8"
+Response: manually improved column via hard coding
+
+Issue: when adding a nan and a number, the result was a nan (more of a python issue than a file issue)
+Response: adjusted coding to account for it

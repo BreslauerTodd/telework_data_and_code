@@ -1,0 +1,7 @@
+All data files should contain at least one identical column (preferably the independent variable column) so the generated dataframes can be horizontally merged without issue before the data is compressed to remove as many nans as possible
+
+A file similar to the Run Key should be included to help organized the data without increasing the filename length
+
+Make sure that columns are properly labeled ("Run 8" instead of " Run 8") to prevent issues if we need to hard code anything involving a specific column
+
+Have empty locations conta nans (like they currently do)
